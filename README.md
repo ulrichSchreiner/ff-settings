@@ -28,7 +28,7 @@ Now create a file `$HOME/.config/ff-settings/user.js` like this:
 
 and now start the service:
 ~~~
-$ systemctl --user start ff-settings
+$ systemctl --user restart ff-settings
 ~~~
 
 As the service creates symlinks you can now edit the file without restart the service
