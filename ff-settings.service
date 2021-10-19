@@ -1,0 +1,10 @@
+[Unit]
+Description=Firefox Settings
+
+[Service]
+Type=oneshot
+ExecStart=ff-service.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=default.target
