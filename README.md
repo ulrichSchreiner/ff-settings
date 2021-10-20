@@ -37,7 +37,6 @@ As the service creates symlinks you can now edit the file without restart the se
 
 ## Advantages
 
-I
  - only have to manage this single file and enable the service.
  - do not care about my exact profile name and directory
  - can use `ansible` to create host specific `user.js` files
